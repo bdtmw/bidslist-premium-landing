@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 import LeadForm from "./LeadForm";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const trustItems = [
   "Local Licensed Contractors",
@@ -14,8 +15,13 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="gradient-hero-bg pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
-      <div className="container mx-auto px-4">
+    <section className="relative pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      <div className="absolute inset-0 bg-background/85 backdrop-blur-sm" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left */}
           <motion.div
