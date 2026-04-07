@@ -15,7 +15,7 @@ const StickyMobileCTA = () => {
         onClick={scrollToForm}
         className="w-full gradient-cta text-primary-foreground font-bold py-3.5 rounded-xl text-base shadow-cta transition-all"
       >
-        Get My Free Bids →
+        Get My Bids →
       </button>
     </motion.div>
   );

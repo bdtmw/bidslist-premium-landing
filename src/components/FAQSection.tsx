@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "How much does this cost?",
-    a: "It's completely free for homeowners. Contractors pay a small fee to participate, which keeps the platform running.",
+    a: "Homeowners pay a small fee to receive competitive bids from vetted contractors. It's a fraction of what you'd save by comparing multiple quotes.",
   },
 ];
 

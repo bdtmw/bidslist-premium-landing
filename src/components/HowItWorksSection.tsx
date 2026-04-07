@@ -53,7 +53,7 @@ const HowItWorksSection = () => {
             onClick={scrollToForm}
             className="gradient-cta text-primary-foreground font-bold px-10 py-4 rounded-xl text-base shadow-cta hover:shadow-cta-hover transition-all duration-300"
           >
-            Get My Free Bids →
+            Get My Bids →
           </motion.button>
         </div>
       </div>

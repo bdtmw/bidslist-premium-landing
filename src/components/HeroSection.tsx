@@ -32,7 +32,7 @@ const HeroSection = () => {
             <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.4rem] leading-tight font-bold text-foreground mb-6">
               Get Contractors{" "}
               <span className="text-gradient-brand">Competing</span> for Your
-              Kitchen Remodel
+              Project
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg leading-relaxed">
               Post your project once and receive multiple bids from qualified
@@ -49,7 +49,7 @@ const HeroSection = () => {
                 }
                 className="gradient-cta text-primary-foreground font-semibold px-8 py-3.5 rounded-xl text-base shadow-cta hover:shadow-cta-hover transition-all duration-300 hover:scale-105"
               >
-                Get My Free Bids →
+                Get My Bids →
               </button>
               <button
                 onClick={scrollToHowItWorks}
