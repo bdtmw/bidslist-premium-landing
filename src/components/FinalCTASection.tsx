@@ -18,7 +18,7 @@ const FinalCTASection = () => {
           viewport={{ once: true }}
         >
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Stop Overpaying for Your Kitchen Remodel
+            Stop Overpaying for Your Project
           </h2>
           <p className="text-lg text-muted-foreground mb-10">
             Let contractors compete so you don't have to negotiate blindly
@@ -29,7 +29,7 @@ const FinalCTASection = () => {
             onClick={scrollToForm}
             className="gradient-cta text-primary-foreground font-bold px-12 py-4 rounded-xl text-lg shadow-cta hover:shadow-cta-hover transition-all duration-300"
           >
-            Get My Free Bids →
+            Get My Bids →
           </motion.button>
         </motion.div>
       </div>

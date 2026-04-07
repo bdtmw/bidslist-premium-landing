@@ -82,7 +82,7 @@ console.log(response)
       }`}
     >
       <h3 className="font-heading text-xl font-bold text-foreground mb-1">
-        {variant === "hero" ? "Get Your Free Bids" : "Start Getting Bids Now"}
+        {variant === "hero" ? "Get Your Bids" : "Start Getting Bids Now"}
       </h3>
       <p className="text-sm text-muted-foreground mb-5">
         We'll match you with contractors ready to compete for your project

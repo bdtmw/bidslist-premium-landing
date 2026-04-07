@@ -17,7 +17,7 @@ const Navbar = () => {
           onClick={scrollToForm}
           className="gradient-cta text-primary-foreground font-semibold px-5 py-2 rounded-lg text-sm shadow-cta hover:shadow-cta-hover transition-all duration-300 hover:scale-105"
         >
-          Get My Free Bids
+          Get My Bids
         </button>
       </div>
     </nav>
